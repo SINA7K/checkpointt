@@ -1,0 +1,358 @@
+
+body {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #1B2F33;
+    padding: 25px;
+    box-shadow: rgba(153, 150, 150, 0.56) 0px 22px 70px 4px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: wheat;
+}
+
+a:hover {
+    background-color: #28502E;
+    border-radius: 10px;
+    padding: 10px;
+    color: wheat;
+}
+
+.p2 {
+    margin-right: 25px;
+    font-weight: 50px;
+}
+
+.p1 {
+    font-size: 25px;
+    margin-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    padding: 25px 0;
+    background-color: #0060AA;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.div-produit {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 80px 50px;
+}
+
+.TEX1 {
+    font-size: 90px;
+    width: 400px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.TEX2 {
+    padding-right: 300px;
+}
+
+.title-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.IMG1 {
+    margin-right: 50px;
+}
+
+.b1 {
+    width: 20%;
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 10px;
+}
+
+.b1:hover {
+    background-color: rgb(63, 58, 58);
+    color: white;
+}
+
+.mark-logo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.img2, .img3, .img4, .img5, .img6 {
+    width: 6%;
+}
+
+.img7 {
+    width: 60%; 
+    height: auto;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 30%; 
+}
+
+.all-produit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 15px;
+}
+
+.produit {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 20px;
+}
+
+.produit3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px; 
+}
+
+.name-pro {
+    position: absolute;
+    margin-right: 200px;
+}
+
+.name-pro h1 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    color: #0764ad;
+    text-align: right;
+    font-size: 40px;
+    margin: 0 70px 0 0px;
+}
+
+.pic1 {
+    width: 85%;
+    padding-left: 190px;
+}
+
+.pic2 {
+    width: 55%;
+    padding-right: 190px;
+}
+
+.buynow {
+    margin-left: 115px;
+    padding: 15px;
+    background-color: #0060AA;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.buynow:hover {
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1B2F33;
+    color: #f3eaea;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 1200px) {
+    .TEX1 {
+        font-size: 75px;
+        width: 300px;
+    }
+
+    .div-produit {
+        flex-direction: column;
+        padding: 50px 20px;
+        align-items: center;
+    }
+
+    .IMG1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .b1 {
+        width: 30%;
+    }
+
+    .mark-logo img {
+        width: 8%;
+    }
+
+    .produit {
+        width: 300px;
+        height: 300px;
+        margin: 30px 10px;
+    }
+
+    .product-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 992px) {
+    .TEX1 {
+        font-size: 60px;
+        width: 250px;
+    }
+
+    .TEX2 {
+        padding-right: 200px;
+    }
+
+    .img2, .img3, .img4, .img5, .img6 {
+        width: 8%;
+    }
+
+    .product-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .produit {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .all-produit {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .TEX1 {
+        font-size: 50px;
+        width: auto;
+    }
+
+    .TEX2 {
+        padding-right: 0;
+    }
+
+    .div-produit {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .IMG1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .b1 {
+        width: 50%;
+    }
+
+    .mark-logo img {
+        width: 10%;
+    }
+
+    .product-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .produit {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .pic1 {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    a {
+        font-size: 16px;
+    }
+
+    .title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .TEX1 {
+        font-size: 40px;
+    }
+
+    .div-produit {
+        padding: 10px;
+    }
+
+    .b1 {
+        width: 60%;
+    }
+
+    .mark-logo img {
+        width: 12%;
+    }
+
+    .product-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .produit {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}
